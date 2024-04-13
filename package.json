@@ -1,0 +1,33 @@
+{
+  "name": "nexvel-tiral-proejct",
+  "private": true,
+  "description": "Gatsby wordpress site to use nexvel-trial",
+  "version": "0.1.0",
+  "author": "Uros Jevtic",
+  "dependencies": {
+    "gatsby": "next",
+    "gatsby-core-utils": "next",
+    "gatsby-source-wordpress": "next",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "gatsby-plugin-postcss": "^5.16.0",
+    "postcss": "^8.4.14",
+    "prettier": "2.1.1",
+    "nexvel-trial": "^0.2.7"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  }
+}
